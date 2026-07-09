@@ -218,13 +218,7 @@ h2 {
 }
 .example dd { margin: 0; color: var(--ink); }
 
-/* ---------- Signoff / challenge / mentions ---------- */
-.challenge {
-  font-size: 1.5rem;
-  font-style: italic;
-  color: var(--accent);
-  margin: 2.2rem 0 0;
-}
+/* ---------- Signoff ---------- */
 .signoff {
   font-family: var(--sans);
   font-size: 0.95rem;
@@ -232,10 +226,7 @@ h2 {
   color: var(--muted);
   margin: 1.8rem 0 0;
 }
-.signoff span {
-  font-size: 0.82rem;
-  color: var(--faint);
-}
+
 /* ---------- Shirt band (interleaved in story) + gallery ---------- */
 .shirt-band {
   display: grid;
